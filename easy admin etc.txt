@@ -1,0 +1,202 @@
+cheifreg
+
+cheif pass
+
+
+
+
+
+
+fas fa-globe text-danger me-2
+
+
+
+
+
+
+{# END SECTION #}
+
+            </div>
+        </div>
+    </div>
+    </div>
+     {% endblock %}
+
+
+
+
+
+
+
+
+{% extends 'temp/nav.html' %}
+{% block content %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<table>
+        <tr>
+            <td>Paper</td>
+            <td><select name="paper">
+                {% for i in p %}
+                <option value="{{ i.paper_id }}">{{ i.paper }}</option>
+                {% endfor %}
+            </select>
+        </tr>
+        <tr>
+            <td>Chief</td>
+            <td><select name="chief">
+                {% for i in c %}
+                <option value="{{ i.cheif_id }}">{{ i.name }}</option>
+                {% endfor %}
+            </select>
+        </tr>
+         <tr>
+            <td>Start</td>
+              <td><input type="number" name="Start"></td>
+        </tr>
+         <tr>
+            <td>End</td>
+              <td><input type="number" name="End"></td>
+        </tr>
+          <tr>
+       <td> <input type="submit" value="submit"></td>
+    </tr>
+    </table>
+
+
+
+
+{% extends 'temp/nav.html' %}
+{% block content %}
+
+
+
+<!-- Page Header Start -->
+    <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-4">Admin manage cheif</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+{#                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>#}
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Admin manage cheif</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+<!-- About Start -->
+    <div class="container-xxl">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.1s">
+
+{#                    SECTION      #}
+
+	<table class="table">
+		<table>
+        <tr>
+            <td>Paper</td>
+            <td><select name="paper">
+                {% for i in p %}
+                <option value="{{ i.paper_id }}">{{ i.paper }}</option>
+                {% endfor %}
+            </select>
+        </tr>
+        <tr>
+            <td>Chief</td>
+            <td><select name="chief">
+                {% for i in c %}
+                <option value="{{ i.cheif_id }}">{{ i.name }}</option>
+                {% endfor %}
+            </select>
+        </tr>
+         <tr>
+            <td>Start</td>
+              <td><input type="number" name="Start"></td>
+        </tr>
+         <tr>
+            <td>End</td>
+              <td><input type="number" name="End"></td>
+        </tr>
+          <tr>
+       <td> <input type="submit" value="submit"></td>
+    </tr>
+    </table>
+
+			<th>
+                <a href="/cheif/accept/{{i.cheif_id}}">Accept</a>
+                <a href="/cheif/reject/{{i.cheif_id}}">Reject</a>
+            </th>
+		</tr>
+        {% endfor %}
+	</table>
+
+{# END SECTION #}
+
+            </div>
+        </div>
+    </div>
+    </div>
+     {% endblock %}
+
+
+
+<!-- Page Header Start -->
+    <div class="container-fluid page-header py-6 my-6 mt-0 wow fadeIn" data-wow-delay="0.1s">
+        <div class="container text-center">
+            <h1 class="display-4 text-white animated slideInDown mb-4">Chief Registration</h1>
+            <nav aria-label="breadcrumb animated slideInDown">
+                <ol class="breadcrumb justify-content-center mb-0">
+                    <li class="breadcrumb-item"><a class="text-white" href="#">Home</a></li>
+{#                    <li class="breadcrumb-item"><a class="text-white" href="#">Pages</a></li>#}
+                    <li class="breadcrumb-item text-primary active" aria-current="page">Chief Registration</li>
+                </ol>
+            </nav>
+        </div>
+    </div>
+    <!-- Page Header End -->
+<!-- About Start -->
+    <div class="container-xxl">
+        <div class="container">
+            <div class="row g-5">
+                <div class="col-lg-10 wow fadeInUp" data-wow-delay="0.1s">
+
+{#                    SECTION      #}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Re: *CLR* No of days x 600 
+*Additionals* Discussion: 900 + No. Of papers* 35 
+*Chief* Discussion: 1200 + Highest of additionals remuneration 
+*Chairman* Discussion: 1500 + Chairman fee:2000 + Additional Remuneration
